@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">移动股指</string>
+    <string name="title_activity_bnb">BNBActivity</string>
+
+    <string name="tips">Hello</string>
+    <!-- tab item strings -->
+    <string name="tab_item_home">主页</string>
+    <string name="tab_item_contract">合约</string>
+    <string name="tab_item_interaction">互动</string>
+    <string name="tab_item_spread">推广</string>
+    <string name="tab_item_mine">我的</string>
+</resources>
