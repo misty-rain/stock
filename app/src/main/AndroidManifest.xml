@@ -16,8 +16,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_bnb"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/title_activity_bnb">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
