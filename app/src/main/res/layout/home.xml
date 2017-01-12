@@ -11,10 +11,20 @@
         android:layout_height="100dp" />
 
 
-    <TextView
-        android:text="Home"
+    <include layout="@layout/home_boardcast_msg_title" />
+    <com.mistyrain.stock.widget.XSwipeRefreshLayout
+        android:id="@+id/swipe_layout"
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="match_parent"
-        android:id="@+id/textView"/>
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </com.mistyrain.stock.widget.XSwipeRefreshLayout>
+
 </LinearLayout>

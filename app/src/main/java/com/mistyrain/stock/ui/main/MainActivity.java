@@ -1,4 +1,4 @@
-package com.mistyrain.stock;
+package com.mistyrain.stock.ui.main;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import com.mistyrain.stock.R;
 import com.mistyrain.stock.base.BaseFragment;
 
 public class MainActivity extends FragmentActivity {
@@ -19,7 +20,7 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ((AppCompatActivity)MainActivity.this.getParent()).getSupportActionBar().hide();
+       // ((AppCompatActivity)MainActivity.this.getParent()).getSupportActionBar().hide();
         setContentView(R.layout.act_main);
 
 
