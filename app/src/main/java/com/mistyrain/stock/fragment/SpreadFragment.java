@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import com.mistyrain.stock.R;
 
 /**
+ * 推广
  * Created by mistyrain on 10/01/2017.
  */
 
