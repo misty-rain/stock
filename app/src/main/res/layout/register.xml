@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/red"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_marginTop="40dp"
+    android:text="来自股指大切糕的微信分享"
+    android:layout_marginLeft="20dp"
+    android:textSize="16dp"
+    android:textColor="#ffffff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ea6c6c"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+<EditText
+    android:background="@null"
+    android:textColorHint="#ffffff"
+    android:textSize="16dp"
+    android:layout_centerVertical="true"
+    android:hint="手机号码"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <EditText
+            android:layout_weight="1"
+            android:background="#ea6c6c"
+            android:textColorHint="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:hint="      短信验证码"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:text="发送短信验证码"
+            android:background="#ea6c6c"
+            android:layout_alignParentRight="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+</LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ea6c6c"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:background="@null"
+            android:textColorHint="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:hint="登录密码"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ea6c6c"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:background="@null"
+            android:textColorHint="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:hint="确认密码"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#ea6c6c"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:background="@null"
+            android:textColorHint="#ffffff"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            android:hint="引荐人"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"/>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+        <CheckBox
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="注册完毕直接登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/login"
+    android:textColor="#ffffff"
+    android:layout_gravity="center"
+    android:text="登录"
+    android:layout_marginTop="20dp"
+    android:background="#ea6c6c"
+    android:textSize="16dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+
+
+
+</LinearLayout>
