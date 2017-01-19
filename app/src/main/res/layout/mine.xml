@@ -219,7 +219,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#ffffff"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/lytransfer">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -291,7 +292,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#ffffff"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/lyuserprofile">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -486,7 +488,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#ffffff"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:id="@+id/lyfeedback">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -600,6 +603,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/lyswtichaccount"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="3dp"

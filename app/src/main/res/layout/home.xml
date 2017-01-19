@@ -12,8 +12,10 @@
 
 
     <include layout="@layout/home_boardcast_msg_title" />
+
     <com.mistyrain.stock.widget.XSwipeRefreshLayout
         android:id="@+id/swipe_layout"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

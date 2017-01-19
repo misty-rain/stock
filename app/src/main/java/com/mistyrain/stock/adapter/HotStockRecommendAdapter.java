@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import com.mistyrain.stock.R;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.InjectView;
 
 /**
  * Created by mistyrain on 12/01/2017.
@@ -24,7 +24,7 @@ public class HotStockRecommendAdapter extends RecyclerView.Adapter<HotStockRecom
     private String[] mTitles;
 
     public HotStockRecommendAdapter(Context context) {
-        mTitles = new String[] {"德国FDAX","11089","+20.9%","222"};
+        mTitles = new String[]{"德国FDAX", "11089", "+20.9%", "222"};
         mContext = context;
         mLayoutInflater = LayoutInflater.from(context);
     }
@@ -48,18 +48,18 @@ public class HotStockRecommendAdapter extends RecyclerView.Adapter<HotStockRecom
     }
 
     public static class NormalTextViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.hotstock_item_head_title)
+        @InjectView(R.id.hotstock_item_head_title)
         TextView mTxtHeadTitle;
-        @BindView(R.id.hotstock_item_current_price)
-                  TextView mTxtCurrentPrice;
-        @BindView(R.id.hotstock_item_increase)
-                  TextView  mTxtIncrease;
-        @BindView(R.id.hotstock_item_turnover)
-                 TextView mTxtTurnover;
+        @InjectView(R.id.hotstock_item_current_price)
+        TextView mTxtCurrentPrice;
+        @InjectView(R.id.hotstock_item_increase)
+        TextView mTxtIncrease;
+        @InjectView(R.id.hotstock_item_turnover)
+        TextView mTxtTurnover;
 
         NormalTextViewHolder(View view) {
             super(view);
-            ButterKnife.bind(this, view);
+            ButterKnife.inject(this, view);
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

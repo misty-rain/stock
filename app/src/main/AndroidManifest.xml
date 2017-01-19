@@ -25,6 +25,12 @@
         </activity>
         <activity android:name="com.mistyrain.stock.ui.main.MainActivity">
         </activity>
+        <activity android:name=".ui.feedback.FeedBackActivity"></activity>
+        <activity android:name=".ui.about.AboutActivity"></activity>
+        <activity android:name=".ui.register.RegisterActivity"></activity>
+        <activity android:name=".ui.transfer.TransferActivity"></activity>
+        <activity android:name=".ui.user.UserProfileActivity"></activity>
+        <activity android:name=".ui.login.LoginActivity"></activity>
     </application>
 
 </manifest>

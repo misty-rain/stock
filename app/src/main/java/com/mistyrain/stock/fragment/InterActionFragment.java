@@ -1,18 +1,17 @@
 package com.mistyrain.stock.fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
+import com.mistyrain.cat_foundation.support.event.EventCenter;
 import com.mistyrain.stock.R;
+import com.mistyrain.stock.base.BaseFragment;
 
 /**
  * Created by mistyrain on 10/01/2017.
  */
 
-public class InterActionFragment extends Fragment {
+public class InterActionFragment extends BaseFragment {
 
     public static InterActionFragment newInstance(String param1) {
         InterActionFragment fragment = new InterActionFragment();
@@ -31,10 +30,44 @@ public class InterActionFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.interaction, container, false);
-        return view;
+    protected void onFirstUserVisible() {
+
+    }
+
+    @Override
+    protected void onUserVisible() {
+
+    }
+
+    @Override
+    protected void onUserInvisible() {
+
+    }
+
+    @Override
+    protected View getLoadingTargetView() {
+        return null;
+    }
+
+    @Override
+    protected void initViewsAndEvents() {
+
+    }
+
+    @Override
+    protected int getContentViewLayoutID() {
+        return R.layout.interaction;
+    }
+
+    @Override
+    protected void onEventComming(EventCenter eventCenter) {
+
+    }
+
+    @Override
+    protected boolean isBindEventBusHere() {
+        return false;
     }
 }

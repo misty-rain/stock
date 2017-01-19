@@ -3,11 +3,15 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <include
+        layout="@layout/common_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <LinearLayout
         android:id="@+id/transter"
         android:gravity="center"
         android:layout_gravity="center"
-        android:background="@color/red"
+        android:background="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:orientation="horizontal">
@@ -46,7 +50,7 @@
             <ImageView
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center_vertical"
-                android:src="@mipmap/bjmgf_sdk_dock_back_btn"
+                android:src="@mipmap/icon_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                />
@@ -81,7 +85,7 @@
             <ImageView
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center_vertical"
-                android:src="@mipmap/bjmgf_sdk_dock_back_btn"
+                android:src="@mipmap/icon_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
@@ -116,7 +120,7 @@
             <ImageView
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center_vertical"
-                android:src="@mipmap/bjmgf_sdk_dock_back_btn"
+                android:src="@mipmap/icon_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
@@ -151,7 +155,7 @@
             <ImageView
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center_vertical"
-                android:src="@mipmap/bjmgf_sdk_dock_back_btn"
+                android:src="@mipmap/icon_forward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
